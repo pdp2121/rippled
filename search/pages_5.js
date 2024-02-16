@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['json_27230',['JSON',['../md_ripple_json_README.html',1,'']]],
-  ['json_20todo_27231',['JSON TODO',['../md_ripple_json_TODO.html',1,'']]]
+  ['fees_28864',['Fees',['../md_ripple_app_misc_FeeEscalation.html',1,'']]],
+  ['fee_20voting_28865',['Fee Voting',['../md_ripple_app_misc_README.html',1,'']]]
 ];

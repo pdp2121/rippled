@@ -73,9 +73,6 @@ $(function() {
 <li>ramSize_
 : <a class="el" href="classripple_1_1Config.html#ab387a3b1b4ccbc0b131fe7db67dc6749">ripple::Config</a>
 </li>
-<li>raPeerAccount
-: <a class="el" href="structripple_1_1VisitData.html#ace8821e3a6141b5dd56178a69c94ab34">ripple::VisitData</a>
-</li>
 <li>raSrcAccount
 : <a class="el" href="classripple_1_1PathRequest.html#a95608aae61222c1f873702cbd206a793">ripple::PathRequest</a>
 </li>
@@ -177,6 +174,9 @@ $(function() {
 <li>reconnected
 : <a class="el" href="structripple_1_1test_1_1Consensus__test_1_1Disruptor.html#ab44e10a3c1a13667c87e5f3fb4171322">ripple::test::Consensus_test::Disruptor</a>
 </li>
+<li>recordedVotes_
+: <a class="el" href="classripple_1_1TrustedVotes.html#a92a6e302c047b3c033dfa5b88549d6d1">ripple::TrustedVotes</a>
+</li>
 <li>recoveryWaitTime_
 : <a class="el" href="classripple_1_1SHAMapStoreImp.html#a61afe6de983f363d89c310dfa0058046">ripple::SHAMapStoreImp</a>
 </li>
@@ -195,8 +195,11 @@ $(function() {
 <li>refcount
 : <a class="el" href="structripple_1_1Resource_1_1Entry.html#a3e780c3b19c2c14ec472886ad9290a8c">ripple::Resource::Entry</a>
 </li>
+<li>refcount_
+: <a class="el" href="classripple_1_1SHAMapItem.html#ad2831484014eca794c5c9e39258b39f2">ripple::SHAMapItem</a>
+</li>
 <li>reference_fee
-: <a class="el" href="structripple_1_1FeeVote_1_1Setup.html#a97f426b8d134160cbe1ba12478574007">ripple::FeeVote::Setup</a>
+: <a class="el" href="structripple_1_1FeeSetup.html#a0eec4da1884d29e364b4475f57f1453d">ripple::FeeSetup</a>
 </li>
 <li>referenceFeeLevel
 : <a class="el" href="structripple_1_1TxQ_1_1Metrics.html#a9ef5bb734c6c198cd67ab6b9ccd9fe4e">ripple::TxQ::Metrics</a>
@@ -275,9 +278,6 @@ $(function() {
 <li>replayTemp_
 : <a class="el" href="classripple_1_1LedgerDeltaAcquire.html#a8186221221517f998a0e56c5eba7fe7b">ripple::LedgerDeltaAcquire</a>
 </li>
-<li>replied
-: <a class="el" href="structripple_1_1SNTPClientImp_1_1Query.html#ad723de8e2cf4a9af6c065415f1640f13">ripple::SNTPClientImp::Query</a>
-</li>
 <li>reply
 : <a class="el" href="classripple_1_1test_1_1ReportingETL__test_1_1GrpcLedgerClient.html#aaddc33ca6ff0f5870c5197cc83455856">ripple::test::ReportingETL_test::GrpcLedgerClient</a>
 , <a class="el" href="classripple_1_1test_1_1ReportingETL__test_1_1GrpcLedgerDataClient.html#acb146e393c9e0ff2d76b057569718bf0">ripple::test::ReportingETL_test::GrpcLedgerDataClient</a>
@@ -350,7 +350,6 @@ $(function() {
 <li>resolver_
 : <a class="el" href="classripple_1_1detail_1_1WorkBase.html#af0a8843226550b4101fe7cdb8171fe62">ripple::detail::WorkBase&lt; Impl &gt;</a>
 , <a class="el" href="classripple_1_1ETLSource.html#a0bd7f579df90324230b7db70d900182f">ripple::ETLSource</a>
-, <a class="el" href="classripple_1_1SNTPClientImp.html#a8fdaa47267cb7f835390cd3a3f9e595f">ripple::SNTPClientImp</a>
 </li>
 <li>responder_
 : <a class="el" href="classripple_1_1GRPCServerImpl_1_1CallData.html#a9f9c3a91a70241c0e7213f040235661b">ripple::GRPCServerImpl::CallData&lt; Request, Response &gt;</a>
@@ -365,7 +364,7 @@ $(function() {
 <li>result
 : <a class="el" href="classripple_1_1NetworkOPsImp_1_1TransactionStatus.html#a8ce8ec3a08bc40ece5ce47f0586da8da">ripple::NetworkOPsImp::TransactionStatus</a>
 , <a class="el" href="structripple_1_1RPC_1_1Request.html#ad3f7568eca724668e6a2562d3eff7ee9">ripple::RPC::Request</a>
-, <a class="el" href="classripple_1_1test_1_1TxQ1__test.html#a409b80414c143c907ba67f8efddb8fa8">ripple::test::TxQ1_test</a>
+, <a class="el" href="classripple_1_1test_1_1TxQPosNegFlows__test.html#ac070fb8ba503100dda1d8840ef27b66f">ripple::test::TxQPosNegFlows_test</a>
 </li>
 <li>result_
 : <a class="el" href="classripple_1_1Consensus.html#afa98029589f3d8025211f44f70484b3e">ripple::Consensus&lt; Adaptor &gt;</a>
@@ -393,6 +392,24 @@ $(function() {
 </li>
 <li>retrySequencePercent
 : <a class="el" href="structripple_1_1TxQ_1_1Setup.html#abff7c81cad94c074c6414872e50f23e8">ripple::TxQ::Setup</a>
+</li>
+<li>reward
+: <a class="el" href="structripple_1_1test_1_1BridgeDef.html#a7166e4092089a601f001e1f14b683d80">ripple::test::BridgeDef</a>
+, <a class="el" href="structripple_1_1test_1_1jtx_1_1XChainBridgeObjects.html#af79b315eba3007094ae0571a31da36ef">ripple::test::jtx::XChainBridgeObjects</a>
+, <a class="el" href="structripple_1_1test_1_1XChainSim__test_1_1AccountCreate.html#a50f85746b6b3392b991a5443742b3a9f">ripple::test::XChainSim_test::AccountCreate</a>
+</li>
+<li>reward_accounts
+: <a class="el" href="structripple_1_1test_1_1BalanceTransfer.html#a30822e814d94a1f50e444dd7b21cbc99">ripple::test::BalanceTransfer&lt; T &gt;</a>
+</li>
+<li>rewardAccount
+: <a class="el" href="structripple_1_1Attestations_1_1AttestationBase.html#af30af3da033172ffe75fe6fa1d85aad8">ripple::Attestations::AttestationBase</a>
+, <a class="el" href="structripple_1_1XChainClaimAttestation.html#a0d6ed8e300ac2dcba1b98050d02d7fbb">ripple::XChainClaimAttestation</a>
+, <a class="el" href="structripple_1_1XChainCreateAccountAttestation.html#aee5e69264bfaf9170077832d8c62e2f1">ripple::XChainCreateAccountAttestation</a>
+</li>
+<li>rewardAmount
+: <a class="el" href="structripple_1_1Attestations_1_1AttestationCreateAccount.html#a5ccd1d446398775bab70694a90e75bf1">ripple::Attestations::AttestationCreateAccount</a>
+, <a class="el" href="structripple_1_1XChainCreateAccountAttestation_1_1MatchFields.html#a36de78871665473f3546e70fe22d2cd4">ripple::XChainCreateAccountAttestation::MatchFields</a>
+, <a class="el" href="structripple_1_1XChainCreateAccountAttestation.html#a2b1089d639cea6bf1d5f0142db2ca16b">ripple::XChainCreateAccountAttestation</a>
 </li>
 <li>rid_
 : <a class="el" href="classripple_1_1test_1_1tx__reduce__relay__test.html#a999787b86216dbcc4c054218c580be33">ripple::test::tx_reduce_relay_test</a>
@@ -425,6 +442,8 @@ $(function() {
 </li>
 <li>role
 : <a class="el" href="structripple_1_1RPC_1_1Context.html#a20ec6d6aa84f8c76eeb90ad92fe25e20">ripple::RPC::Context</a>
+, <a class="el" href="classripple_1_1RPC_1_1LedgerHandler.html#acd0e3619810c4b6e344e012854130329">ripple::RPC::LedgerHandler</a>
+, <a class="el" href="classripple_1_1RPC_1_1VersionHandler.html#a29ce336996af62efeb47b429e3124080">ripple::RPC::VersionHandler</a>
 </li>
 <li>role_
 : <a class="el" href="structripple_1_1RPC_1_1Handler.html#ac4d52f0713b55ef7417f3e53335efcf1">ripple::RPC::Handler</a>
@@ -471,13 +490,13 @@ $(function() {
 : <a class="el" href="classripple_1_1Config.html#a568c380fe9c0a28afc8b09ab9174c864">ripple::Config</a>
 </li>
 <li>rpc_requests_
-: <a class="el" href="classripple_1_1ServerHandlerImp.html#a54cdcb3c477eb5adb0891bd324735c93">ripple::ServerHandlerImp</a>
+: <a class="el" href="classripple_1_1ServerHandler.html#a37ff66f2f2aa099d7565b77a5c373757">ripple::ServerHandler</a>
 </li>
 <li>rpc_size_
-: <a class="el" href="classripple_1_1ServerHandlerImp.html#ab3b7ba5d821b2a8868377c4b746cf5d6">ripple::ServerHandlerImp</a>
+: <a class="el" href="classripple_1_1ServerHandler.html#a22b360b3c38af9c7fcf6033d3618a8f0">ripple::ServerHandler</a>
 </li>
 <li>rpc_time_
-: <a class="el" href="classripple_1_1ServerHandlerImp.html#adc58b4538fc24ffa1a0563256e958a78">ripple::ServerHandlerImp</a>
+: <a class="el" href="classripple_1_1ServerHandler.html#ab7b8ac24ad7073fbc59bb1dca7bd044b">ripple::ServerHandler</a>
 </li>
 <li>rpc_version_
 : <a class="el" href="classripple_1_1test_1_1JSONRPCClient.html#ab67da091f0d42d4ba0722dcfe596a261">ripple::test::JSONRPCClient</a>
